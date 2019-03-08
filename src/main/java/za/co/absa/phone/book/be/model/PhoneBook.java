@@ -1,9 +1,5 @@
 package za.co.absa.phone.book.be.model;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import javax.persistence.*;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "PHONE_BOOK")
