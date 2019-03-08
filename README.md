@@ -15,8 +15,12 @@ spring.jpa.hibernate.ddl-auto=none
 This single line will do all the magic for you using Spring JPA
 
 ```
-public interface PhoneBookService extends JpaRepository<PhoneBook, Integer>{
-}
+public interface PhoneBookService extends JpaRepository<PhoneBook, long>{}
 ```
 
-To download this code
+## To start demo application 
+clone https://github.com/trmunyai/Phone-book-Backend.
+
+```
+Run mvn spring-boot:run on Phone-book-Backend root directory
+```
